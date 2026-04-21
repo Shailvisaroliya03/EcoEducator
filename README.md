@@ -1,11 +1,11 @@
-#🌱 EcoEducator Chatbot
+# 🌱 EcoEducator Chatbot
 
 An AI-powered chatbot designed to promote environmental awareness and sustainable habits among students by delivering personalized learning, challenges, and actionable eco-friendly recommendations.
 
 
 ---
 
-##📌 Project Overview
+## 📌 Project Overview
 
 EcoEducator Chatbot is an intelligent conversational system that educates users about sustainability topics such as climate change, waste management, and energy conservation.
 Unlike basic chatbots, it focuses on:
@@ -15,7 +15,7 @@ Gamified eco-challenges
 
 ---
 
-##🎯 Objectives
+## 🎯 Objectives
 
 Educate users on environmental issues in an interactive way
 Encourage sustainable daily habits
@@ -24,16 +24,16 @@ Increase engagement through gamification
 
 ---
 
-##🚀 Key Features
+## 🚀 Key Features
 
-###💬 AI Chat Interface
+### 💬 AI Chat Interface
 Natural language conversations for answering sustainability-related queries
 
-###🧠 Personalized Recommendations
+### 🧠 Personalized Recommendations
 Suggests actions based on user habits and preferences
 
 
-###🌍 Knowledge Base
+### 🌍 Knowledge Base
 Covers topics like:
 Climate Change
 Waste Management
@@ -42,7 +42,7 @@ Water Conservation
 
 ---
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend:
 CSS
@@ -56,7 +56,7 @@ Rule-based + ML-based response system
 
 ---
 
-##⚙️ System Architecture
+## ⚙️ System Architecture
 
 1. User interacts via chat interface
 2. Input is processed using NLP
@@ -68,7 +68,7 @@ ML/NLP mode
 
 ---
 
-##🔧 Installation & Setup
+## 🔧 Installation & Setup
 
 1. Clone the repository
 git clone https://github.com/your-username/ecoeducator-chatbot.git
@@ -84,7 +84,7 @@ python app.py
 
 ---
 
-##📸 Use Case
+## 📸 Use Case
 
 Students learning sustainability
 Schools promoting green initiatives
@@ -93,7 +93,7 @@ Eco-friendly habit tracking
 
 ---
 
-##📈 Future Improvements
+## 📈 Future Improvements
 
 Voice-based interaction
 Integration with IoT (smart energy tracking)
@@ -103,7 +103,7 @@ Real-time carbon footprint tracking
 
 ---
 
-💡 Why This Project Matters
+## 💡 Why This Project Matters
 
 Most people know about sustainability but don’t act on it.
 This chatbot bridges that gap by turning knowledge into daily actionable behavior.
