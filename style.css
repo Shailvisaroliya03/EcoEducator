@@ -1,0 +1,80 @@
+/* --- Root Variables for a Dark Color Palette --- */
+:root {
+  --primary-green: #386641; /* Dark, earthy green */
+  --secondary-green: #6a994e; /* Brighter green for accents */
+  --light-green: #a7c957;    /* Lighter green */
+  --primary-blue: #007bff;   /* A calming blue */
+  --background-color: #1e1e1e; /* Dark background */
+  --text-color: #f0f0f0;     /* Light text for readability */
+  --light-gray: #333333;     /* For card backgrounds or borders */
+}
+
+/* --- General Page Styling (Optional, as base="dark" handles much of this) --- */
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* --- Customizing Streamlit's Main UI --- */
+/* This rule is often not needed with `base="dark"` but is a good fallback */
+div[data-testid="stAppViewContainer"] {
+    background-color: var(--background-color);
+}
+
+div.st-emotion-cache-1j43v7e { /* Main block container */
+    padding-top: 1rem;
+    max-width: 900px; /* Constrain the width for a cleaner look */
+    margin: auto;
+}
+
+/* --- Chat Messages and Bubbles --- */
+.stChatMessage {
+    max-width: 80%; /* Limit chat bubble width */
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+/* Assistant's message bubble */
+.stChatMessage.assistant {
+    background-color: #4a4a4a; /* A dark gray for the assistant bubble */
+    color: var(--text-color);
+    align-self: flex-start;
+    border-top-left-radius: 5px;
+}
+
+/* User's message bubble */
+.stChatMessage.user {
+    background-color: #6a994e; /* Use the brighter green for the user bubble */
+    color: #ffffff; /* White text for contrast */
+    align-self: flex-end;
+    border-top-right-radius: 5px;
+}
+
+/* --- Input Box and Send Button --- */
+div[data-testid="stForm"] > div:last-child {
+    background-color: #333333;
+    border-radius: 20px;
+}
+
+.stTextInput > div > div > input {
+    border-radius: 20px;
+    border: 1px solid #555555;
+    padding: 10px 15px;
+    background-color: #2a2a2a;
+    color: var(--text-color);
+}
+
+.stButton > button {
+    background-color: var(--secondary-green);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.stButton > button:hover {
+    background-color: var(--primary-green);
+}
